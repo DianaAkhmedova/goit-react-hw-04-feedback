@@ -12,7 +12,7 @@ const Button = ({ children, onClick, type }) => {
 export default Button;
 
 Button.propTypes = {
-  children: PropTypes.element.isRequired,
+  children: PropTypes.string.isRequired,
   onClick: PropTypes.func,
   type: PropTypes.oneOf(['submit', 'button', 'reset']),
 };
